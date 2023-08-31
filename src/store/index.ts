@@ -15,7 +15,7 @@ export const usePassword = create<usePasswordState>(set => ({
   passwordLength: '10',
   isUppercase: true,
   isLowercase: true,
-  isNumbers: false,
-  isSymbols: false,
+  isNumbers: true,
+  isSymbols: true,
   set,
 }));
